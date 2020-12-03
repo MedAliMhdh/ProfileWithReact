@@ -11,13 +11,13 @@ function App() {
         <div className="rightSide">
           <Fullname name="Mohamed Ali" lastName="Mahdhaoui" />
           <Address
-            apartmentNuber="Apartement 42,"
-            buildingNumber="149"
-            streetName="Boulevard Jean Jaures,"
-            city="Clichy,"
-          >
-            92110
-          </Address>
+            apartmentNuber={22}
+            buildingNumber={333}
+            streetName=" cité el wahat,"
+            city=" Tunis,"
+            country=" Tunisia"
+            zipCode={1000}
+          ></Address>
         </div>
       </div>
     </div>
