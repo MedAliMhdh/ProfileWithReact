@@ -9,8 +9,15 @@ function App() {
       <div className="ProfileContainer">
         <ProfilePhoto />
         <div className="rightSide">
-          <Fullname />
-          <Address />
+          <Fullname name="Mohamed Ali" lastName="Mahdhaoui" />
+          <Address
+            apartmentNuber="Apartement 42,"
+            buildingNumber="149"
+            streetName="Boulevard Jean Jaures,"
+            city="Clichy,"
+          >
+            92110
+          </Address>
         </div>
       </div>
     </div>
